@@ -82,13 +82,13 @@ article {
   padding: 0 10px;
 }
 
-article h2, footer h3 {
+h2, h3 {
   font-family: 'League Gothic';
   text-transform: uppercase;
   font-weight: normal;
   margin-bottom: 0;
 }
-article h2 {
+h2 {
   font-size: 2em;
   color: rgb(70, 0, 0);
 }
@@ -194,10 +194,46 @@ footer hr.copy-separation {
   margin-right: 0;
 }
 
-
 .clear {
   clear: both;
   width: 100%;
+}
+
+
+.member {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  float: left; 
+  text-align: left;
+}
+
+.member h2 {
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+  
+  margin-right: 10px;
+  margin-bottom: 0;
+  padding: 0;
+  
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  float: left;
+}
+
+.filipe {
+  background-image: url(https://graph.facebook.com/filipe0513/picture?width=100&height=100);
+}
+
+.petronio {
+  background-image: url(https://graph.facebook.com/petronio.magalhaes.9/picture?width=100&height=100);
 }
 
 @media (max-width: 768px) {
@@ -207,5 +243,11 @@ footer hr.copy-separation {
 
   header img {
     height: 100px ;
+  }
+  .filipe {
+    background-image: url(https://graph.facebook.com/filipe0513/picture?width=200&height=200);
+  }
+  .petronio {
+    background-image: url(https://graph.facebook.com/petronio.magalhaes.9/picture?width=200&height=200);
   }
 }
