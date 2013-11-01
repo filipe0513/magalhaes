@@ -1,17 +1,14 @@
 ---
 layout: default
-title: Família Magalhães
+title: Família Magalhães - Membros
 ---
 <div class="wrapper">
-	<div class="member w50">
-		<h2>Filipe Magalhães</h2>
-		<div class="profile filipe"></div>
-		<p>Formado em Ciência da Computação na Universidade Federal de Pernambuco em 2011, abriu sua empresa, <a href="http://www.say2me.com.br">Say2me</a>, em 2012, onde trabalha até hoje.</p>
-	</div>
-	<div class="member w50 last">
-		<h2>Petrônio Magalhães</h2>
-		<div class="profile petronio"></div>
-		<p>Formado em Inform;atica na Universidade Federal de Pernambuco em 1985, trabalhou na Procenge e agora está na Prefeitura do Recife.</p>
-	</div>
+	{% for post in site.posts %}
+		<div class="member w50">
+			<div class="profile {{ post.name }}"></div>
+			<h2>{{ post.title }}</h2>
+			<p>{{ post.content }}</p>
+		</div>
+	{% endfor %}
 	<div class="clear"></div>
 </div>

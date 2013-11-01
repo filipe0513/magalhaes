@@ -1,6 +1,9 @@
 ---
 layout: post
-title:  "Bem vindos!"
+title:  "Filipe Magalhães"
+name: filipe
 ---
 
-Em breve teremos um belo site da Família Magalhães!
+Formado em Ciência da Computação na Universidade Federal de Pernambuco em 2011, abriu sua empresa, [Say2me][say2me], em 2012, onde trabalha até hoje.
+
+[say2me]: http://www.say2me.com.br
