@@ -1,3 +1,11 @@
-name: Your New Jekyll Site
+name: Família Magalhães
 markdown: redcarpet
 pygments: true
+paginate: 1
+paginate_path: "fotos/foto/:num"
+gallerytag:
+    dir: img/galleries
+    url: /img/galleries
+    columns: 3
+    thumb_width: 150
+    thumb_height: 150

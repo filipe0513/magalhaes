@@ -57,7 +57,7 @@ header ul li {
   padding: 1em 0;
 }
 
-header ul li a, footer a {
+header ul li a, footer a, .pic-paginator {
   text-decoration: none;
   color: #ddd;
 }
@@ -126,7 +126,7 @@ footer p, footer li {
   font-size: 0.9em;
 }
 
-footer ul li a:hover {
+footer ul li a:hover, .pic-paginator:hover {
   text-decoration: underline;
 }
 
@@ -220,6 +220,21 @@ footer hr.copy-separation {
 .foto {
   float: left;
   margin: 10px;
+}
+
+.pic-paginator {
+  color: rgb(70, 0, 0);
+  font-size: .9em;
+}
+
+.prevpic, .nextpic {
+  margin-left: 10px; 
+  margin-right: 10px; 
+}
+
+.allpics {
+  margin: 10px;
+  display: block;
 }
 
 .profile {

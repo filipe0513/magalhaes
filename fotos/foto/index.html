@@ -1,0 +1,21 @@
+---
+layout: default
+title: Família Magalhães - Fotos
+---
+<div class="wrapper">
+	<img src="{{site.url}}/img/foto{{ paginator.page }}.jpg" width="100%">
+	
+	{% if paginator.previous_page %}
+		{% if paginator.previous_page == 1%}
+			<a href="{{ site.url }}/fotos/foto/" class="prevpic pic-paginator">< Anterior</a>
+		{% else %}
+			<a href="{{ site.url }}/fotos/foto/{{ paginator.previous_page }}" class="prevpic pic-paginator">< Anterior</a>
+		{% endif %}
+	{% endif %}
+
+	{% if paginator.next_page %}
+		<a href="{{ site.url }}/fotos/foto/{{ paginator.next_page }}" class="nextpic pic-paginator">Próxima ></a>
+	{% endif %}
+	<div class="clear"></div>
+	<a href="{{ site.url }}/fotos/" class="allpics pic-paginator">Todas</a>
+</div>
